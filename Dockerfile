@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:latest
+FROM jupyter/datascience-notebook:7a0c7325e470
 
 RUN export NODE_OPTIONS=--max-old-space-size=4096 && \
   jupyter labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build && \
