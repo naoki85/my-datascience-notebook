@@ -8,5 +8,7 @@ services:
       - $PWD:/home/jovyan/work
     environment:
       JUPYTER_ENABLE_LAB: "yes"
+      GRANT_SUDO: "yes"
+    user: "root"
     ports:
       - 8888:8888

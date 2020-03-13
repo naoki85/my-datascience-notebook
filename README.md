@@ -14,6 +14,15 @@ you should press build button, and wait
 
 # Additional modules
 
+## CMake & LightGBM
+
+- [[Linux][cmake] 最新のcmakeをインストールする方法](https://qiita.com/koara-local/items/9d01c6bb9dd93563b7c6)
+- [https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html#linux](https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html#linux)
+
+### Note
+
+- [LightGBM complaining about special JSON characters in feature name...](https://www.kaggle.com/c/data-science-bowl-2019/discussion/120344)
+
 ## labextension
 
 - [https://plot.ly/python/troubleshooting/](https://plot.ly/python/troubleshooting/)
