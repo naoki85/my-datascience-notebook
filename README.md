@@ -12,6 +12,9 @@ $ docker-compose up
 After started, jupyter notebook may require you build.  
 you should press build button, and wait 
 
+- [https://github.com/jupyter/docker-stacks](https://github.com/jupyter/docker-stacks)
+- [Visual Studio CodeでJupyter Notebookを動かしてみた](https://dev.classmethod.jp/server-side/python/visual-studio-code-jupyter-notebook/)
+
 # Additional modules
 
 ## CMake & LightGBM
@@ -42,7 +45,6 @@ Reason of installed version 2.7.0 is below.
 - [https://plot.ly/python/v3/ipython-notebooks/cufflinks/](https://plot.ly/python/v3/ipython-notebooks/cufflinks/)
 - [[Python] CufflinksでPandasのデータフレームをPlotlyに一発描画](https://qiita.com/inoory/items/12028af62018bf367722)
 
-# Note
+## Use japanese in figures of matplotlib
 
-- [https://github.com/jupyter/docker-stacks](https://github.com/jupyter/docker-stacks)
-- [Visual Studio CodeでJupyter Notebookを動かしてみた](https://dev.classmethod.jp/server-side/python/visual-studio-code-jupyter-notebook/)
+- [【Python 3.6】matplotlibを日本語化する](https://qiita.com/maroKanatani/items/3b080c639395bba7795a)
