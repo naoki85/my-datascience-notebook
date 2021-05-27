@@ -9,13 +9,13 @@ RUN wget https://cmake.org/files/v3.6/cmake-3.6.2.tar.gz && \
   tar xvf cmake-3.6.2.tar.gz && \
   cd cmake-3.6.2 && \
   ./bootstrap && make && make install && \
-  cd && rm cmake-3.6.2.tar.gz
+  cd && rm cmake-3.6.2.tar.gz && rm -rf cmake-3.6.2
 
 # LightGBM
 RUN git clone --recursive https://github.com/microsoft/LightGBM && \
   cd LightGBM && mkdir build && cd build && \
   cmake .. && \
-  make -j4 && cd
+  make -j4 && cd && rm -rf LightGBM
 
 # labextentions
 RUN export NODE_OPTIONS=--max-old-space-size=4096 && \
@@ -34,4 +34,4 @@ RUN wget https://ipafont.ipa.go.jp/IPAexfont/ipaexg00401.zip && \
   cp ipaexg00401/ipaexg.ttf /opt/conda/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/ && \
   sed -i -e 's/#font.family\s*:\ssans-serif/font.family: IPAexGothic/g' /opt/conda/lib/python3.7/site-packages/matplotlib/mpl-data/matplotlibrc && \
   chmod 664 /opt/conda/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/ipaexg.ttf && \
-  rm -rf /home/jovyan/.cache/matplotlib/* && rm ipaexg00401.zip
+  rm -rf /home/jovyan/.cache/matplotlib/* && rm ipaexg00401.zip && rm -rf ipaexg00401
