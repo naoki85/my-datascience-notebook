@@ -26,7 +26,7 @@ RUN export NODE_OPTIONS=--max-old-space-size=4096 && \
   unset NODE_OPTIONS
 
 # pip modules
-RUN pip install plotly==2.7.0 cufflinks==0.12.1 lightgbm
+RUN pip install plotly==2.7.0 cufflinks==0.12.1 lightgbm tensorflow opencv-contrib-python
 
 # font
 RUN wget https://ipafont.ipa.go.jp/IPAexfont/ipaexg00401.zip && \
