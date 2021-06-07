@@ -29,7 +29,7 @@ RUN export NODE_OPTIONS=--max-old-space-size=4096 && \
 RUN pip install plotly==2.7.0 cufflinks==0.12.1 lightgbm tensorflow opencv-contrib-python
 
 # font
-RUN wget https://ipafont.ipa.go.jp/IPAexfont/ipaexg00401.zip && \
+RUN wget https://moji.or.jp/wp-content/ipafont/IPAexfont/ipaexg00401.zip && \
   unzip ipaexg00401.zip && \
   cp ipaexg00401/ipaexg.ttf /opt/conda/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/ && \
   sed -i -e 's/#font.family\s*:\ssans-serif/font.family: IPAexGothic/g' /opt/conda/lib/python3.7/site-packages/matplotlib/mpl-data/matplotlibrc && \

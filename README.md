@@ -47,4 +47,4 @@ Reason of installed version 2.7.0 is below.
 
 ## Use japanese in figures of matplotlib
 
-- [【Python 3.6】matplotlibを日本語化する](https://qiita.com/maroKanatani/items/3b080c639395bba7795a)
+- [matplotlibの日本語化(フォント変更)](https://ricrowl.hatenablog.com/entry/2020/09/14/032424)
